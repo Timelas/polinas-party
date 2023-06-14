@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 850px) and (orientation:portrait){
   .header {
-    height: 100vh;
+    height: 100vh
   }
 
   .header__text {
