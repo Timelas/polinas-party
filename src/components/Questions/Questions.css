@@ -79,13 +79,14 @@
 }
 
 .question__label-input {
-  margin: 0;
+  margin: 0 0 20px 0;
   color: #be489a;
   font-family: 'Valisca', "Arial", sans-serif;
 }
 
 .question__label-input-names {
   font-family: "Univrsty", "Arial", sans-serif;
+  margin: 0;
 }
 
 .question__text-span {
@@ -237,6 +238,10 @@
 
   .question__label {
     margin: 10px 0 0 0;
+  }
+
+  .question__label-input {
+    margin: 0 0 15px 0;
   }
 
   .question__input {
