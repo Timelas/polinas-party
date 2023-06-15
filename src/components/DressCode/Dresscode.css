@@ -22,11 +22,8 @@
 }
 
 .dresscode__colors {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin: 50px 0;
-  min-width: 25%;
+  position: relative;
 }
 
 .dresscode__image {
@@ -34,6 +31,7 @@
   object-position: top;
   width: 20vw;
   height: 700px;
+  margin: 50px 0;
 }
 
 @media screen and (max-width: 1700px) {
@@ -71,12 +69,16 @@
     width: 60%;
   }
 
-  .dresscode__colors {
-    margin: 40px 0 0;
-  }
-
   .dresscode__image {
     height: 300px;
+    margin: 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .dresscode__image {
+    width: 25vw;
+    height: 270px;
   }
 }
 
@@ -96,11 +98,8 @@
     margin: 30px 0 0;
   }
 
-  .dresscode__colors {
-    margin: 30px 0 0;
-  }
-
   .dresscode__image {
-    height: 170px;
+    height: 250px;
+    margin: 30px 0 0;
   }
 }
