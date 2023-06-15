@@ -6,6 +6,7 @@ import dress3 from "../../images/dress3.jpeg";
 import dress4 from "../../images/dress4.jpeg";
 import dress5 from "../../images/dress5.jpeg";
 import "./Dresscode.css";
+import Gallery from "../Slider/Slider";
 
 function Dresscode() {
   return (
@@ -20,6 +21,7 @@ function Dresscode() {
         <img alt="фото дресс кода" className="dresscode__image" src={dress4}></img>
         <img alt="фото дресс кода" className="dresscode__image" src={dress5}></img>
       </div>
+      {/* <Gallery /> */}
     </section>
   );
 }

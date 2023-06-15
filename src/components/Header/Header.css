@@ -1,3 +1,8 @@
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -13,6 +18,7 @@
   width: 45%;
   object-fit: contain;
   object-position: center;
+  animation: ani 2s forwards;
 }
 
 @media screen and (max-width: 1700px) {
