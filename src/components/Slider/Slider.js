@@ -53,8 +53,9 @@ const Gallery = () => {
         mouseTracking
         disableDotsControls 
         responsive={{
-            0: { items: 4 },
-            1024: { items: 5 },
+            0: { items: 3 },
+            500: { items: 4 },
+            1024: { items: 5 }
         }}
         infinite={true}
         renderPrevButton={() => {
